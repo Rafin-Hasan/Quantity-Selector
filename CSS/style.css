@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+body{
+    background: #40f3af;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.quantity_counter{
+    /* width: 500px;
+    height: 350px;
+    background: rgb(105, 253, 255); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 15px; */
+    gap: 50px;
+    /* box-shadow:rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+}
+.number{
+    font-family: "Dancing Script", cursive;
+    font-size: 80px;
+    font-weight: 900;
+    color:#fff;
+}
+.add{
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    font-weight: 900;
+    border: none;
+    border-radius: 5px;
+}
+.remove{
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    font-weight: 900;
+    border: none;
+    border-radius: 5px
+}
